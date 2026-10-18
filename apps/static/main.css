@@ -1,0 +1,93 @@
+/* LINKS */
+
+.custom-link {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+
+.custom-link:visited {
+    color: #8f10ca;
+}
+
+.custom-link:hover {
+    background-color:antiquewhite;
+    color: #3538f2;
+}
+
+.custom-link:active {
+    background-color: #1295e1;
+}
+
+/* HEADER */
+
+.format-header {
+    color: #2c3e50;
+    text-align:left ;
+    border-bottom: 2px solid #3498db;
+    background-color: burlywood;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* LISTING */
+
+.list-container {
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+}
+
+.list-container h2 {
+    /* color: #2c3e50; */
+    color: #ffffff;
+    margin-bottom: 15px;
+    background-color:#14eabc;
+    padding: 20px 30px;
+}
+
+.list-container ul, .list-container ol {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+
+/* TABLES */
+
+.table-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+.table-caption {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: left;
+}
