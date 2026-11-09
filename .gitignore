@@ -17,6 +17,6 @@ ENV/
 env.bak/
 venv.bak/
 .mypy_cache/
-**/migrations/
+# **/migrations/
 *.DS_Store
 .history/
